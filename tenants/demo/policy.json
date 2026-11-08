@@ -1,0 +1,41 @@
+{
+  "policy_name": "Demo Group Health Plan (fictional)",
+  "insurer": "Demo Insurer",
+  "source": "Fictional sample for development. Replace with the real policy extract.",
+  "facts": [
+    {
+      "id": "outpatient-visit",
+      "topic": "outpatient doctor visit consultation",
+      "text": "Outpatient doctor visits are reimbursed at 80% up to EUR 60 per visit, max 12 visits per policy year.",
+      "page": 4
+    },
+    {
+      "id": "hospital-prior-approval",
+      "topic": "hospital admission prior approval pre-authorization",
+      "text": "Planned hospital admissions need prior approval from the insurer at least 3 working days before admission. Emergencies are exempt but must be reported within 48 hours.",
+      "page": 7
+    },
+    {
+      "id": "dental",
+      "topic": "dental teeth dentist",
+      "text": "Routine dental care is not covered. Accident-related dental treatment is covered up to EUR 500 per year.",
+      "page": 9
+    },
+    {
+      "id": "claim-deadline",
+      "topic": "claim submit deadline reimbursement",
+      "text": "Claims must be submitted within 90 days of the treatment date with the original invoice and payment receipt.",
+      "page": 12
+    },
+    {
+      "id": "dependants",
+      "topic": "dependant child spouse family",
+      "text": "Spouses and children up to age 26 can be added at the group rate during enrolment or within 30 days of a qualifying life event.",
+      "page": 3
+    }
+  ],
+  "emergency": {
+    "phone": "+30 000 000 0000",
+    "text": "In an emergency call local emergency services (112) first, then the 24/7 assistance line."
+  }
+}

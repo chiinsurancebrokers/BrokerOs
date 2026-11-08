@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+# Real client tenants hold personal and policy data: keep them out of git.
+# Only tenants/demo is committed.
+tenants/*
+!tenants/demo/

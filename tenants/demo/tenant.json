@@ -1,0 +1,10 @@
+{
+  "slug": "demo",
+  "display_name": "Demo Broker",
+  "broker_contact": "broker@example.com",
+  "languages": ["en", "el"],
+  "default_language": "en",
+  "policy_file": "policy.json",
+  "modules": ["copilot"],
+  "brand": { "primary": "#1f3a5f", "logo": null }
+}
